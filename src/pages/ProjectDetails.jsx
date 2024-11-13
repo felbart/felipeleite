@@ -11,7 +11,7 @@ const ProjectDetails = () => {
 
   return (
     <section className="container flex items-center h-full">
-      <h2>Págin do Projeto <span className="capitalize font-bold text-red-500">{project}</span></h2>
+      <h2>Págin do Projeto <span className="capitalize font-bold text-blue-500">{project}</span></h2>
     </section>
   )
 }

@@ -39,7 +39,7 @@ export default {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
-        vinila: ['vinila-condensed', 'sans-serif'],
+        general: ['General Sans', 'sans-serif'],
       },
       backgroundImage: {
         'hero': "url('./assets/images/bg-hero.png')",
