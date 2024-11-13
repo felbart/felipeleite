@@ -84,7 +84,7 @@ import {
       technologies: "Bootstrap, SAAS, Figma, HTML, CSS",
       deliverables: "Branding, UI Interface, Responsive Web",
       company: "Vale das Araucárias (Hackathon team)",
-      link: "tsr",
+      link: "tsr-oraculo",
       featured: true,
     },
     {

@@ -8,5 +8,21 @@
 :root{
   font-family: "General Sans", sans-serif;
   font-weight: 500;
+  overflow-x: hidden;
   /* color-scheme: dark; */
+}
+
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #374151;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #876BE5;
+  border-radius: 14px;
 }

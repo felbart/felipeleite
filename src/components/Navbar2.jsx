@@ -1,12 +1,13 @@
 /* eslint-disable no-unused-vars */
 import { useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../assets/images/logo.svg';
 import { NAVIGATION_LINKS } from '../constants';
 import { FaBars } from 'react-icons/fa6';
 import { FaTimes } from 'react-icons/fa';
 import { motion, useMotionValue, useMotionValueEvent, useScroll } from 'framer-motion';
 
-const Navbar = () => {
+const Navbar2 = () => {
 
   const [ isHidden, setiSHidden ] = useState(false);
   const { scrollY } = useScroll();
@@ -66,10 +67,10 @@ const Navbar = () => {
         <div className='flex justify-between items-center gap-6'>
         <ul className='list-none flex justify-end gap-6 py-3'>
           {NAVIGATION_LINKS.map((item, index) => (
-            <li key={index} className='text-md font-semibold font-inter cursor-pointer text-gray-200 uppercase active:text-primary-100 hover:text-primary-100 transition duration-300'><a href={item.href} className='hover:text-primary'
-            onClick={(e) => handleLinkClick(e, item.href)}>
+            <li key={index} className='text-md font-semibold font-inter cursor-pointer text-gray-200 uppercase active:text-primary-100 hover:text-primary-100 transition duration-300'>
+              <Link to={item.href} className='hover:text-primary' onClick={(e) => handleLinkClick(e, item.href)}>
               {item.label}
-            </a></li>
+            </Link></li>
           ))}
         </ul>
         </div>
@@ -105,4 +106,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar2
