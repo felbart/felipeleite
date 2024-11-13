@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
@@ -7,7 +6,7 @@ const Navbar = () => {
         <Link to='/'>Home</Link>
         <Link to='/about'>Sobre</Link>
         <Link to='/projects'>Trabalhos</Link>
-        <Link to='#contact'>Contato</Link>
+        <Link to='/contact'>Contato</Link>
     </nav>
   )
 }
