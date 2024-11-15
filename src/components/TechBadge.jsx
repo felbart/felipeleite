@@ -1,8 +1,10 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 
-const TechBadge = ({ nome }) => {
+const TechBadge = (props) => {
   return (
-    <span className='text-secondary-400 bg-gray-800/80 text-sm py-1 px-3 rounded-md'>{nome}</span>
+    // eslint-disable-next-line react/prop-types
+    <span className='text-secondary-400 bg-gray-800/80 text-sm py-1 px-3 rounded-md'>{props.nome}</span>
   )
 }
 
