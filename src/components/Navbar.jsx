@@ -59,7 +59,7 @@ const Navbar = () => {
       whileHover="visible"
       onFocusCapture={() => setiSHidden(false)}
        className='fixed top-3 right-0 left-0 z-50'>
-        <div className="mx-auto hidden max-w-4xl items-center justify-center gap-12 lg:flex rounded-lg bg-gray-950/80 py-3 backdrop-blur-lg border-b-2 border-gray-800 shadow-lg shadow-gray-950/30">
+        <div className="mx-auto hidden max-w-[1080px] items-center justify-center gap-12 lg:flex rounded-lg bg-gray-950/80 py-3 backdrop-blur-lg border-b-2 border-gray-800 shadow-lg shadow-gray-950/30">
         <div className='min-h-12'>
         <a href="./"><img src={logo} alt="Felipe Leite" width={160}/></a>
         </div>
