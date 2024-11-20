@@ -1,5 +1,3 @@
-import HorizontalDiv from "./divider/HorizontalDiv"
-
 const SectionTitle = ({ title, subtitle }) => {
   return (
     <div className='flex flex-col gap-4'>
