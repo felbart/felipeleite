@@ -1,12 +1,12 @@
 import AboutHome from '../components/AboutHome';
 import Hero from '../components/Hero';
-import ProjectsHome from '../components/ProjectsHome';
+import RecentProjects from '../components/RecentProjects';
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <ProjectsHome />
+      <RecentProjects />
       <AboutHome />
     </>
   )

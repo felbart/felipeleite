@@ -11,7 +11,7 @@ const AboutHome = () => {
       <HorizontalDiv />
       </div>
       <div className='flex flex-col md:flex-row gap-4 md:gap-8'>
-        <div className='flex flex-col w-4/12 border-2 gap-4 border-red-400'>
+        <div className='flex flex-col w-4/12 border-2 gap-4 border-red-400 sticky top-2'>
           <h3 className='text-gray-100 font-bold uppercase text-2xl'>{ABOUT.text1}</h3>
           <span className='text-base normal-case text-gray-400'>{ABOUT.text2}</span>
         </div>
