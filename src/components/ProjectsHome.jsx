@@ -12,7 +12,7 @@ const ProjectsHome = () => {
         </div>
         <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-8'>
           {PROJECTS.map((item, id) => (
-            <Link key={id} to={item.link}>
+            <Link key={id} to={"/projects/" + item.link}>
             <ProjectCard2 image={item.image[0]} title={item.title} subtitle={item.subtitle} description={item.description} technologies={item.technologies}/>
             </Link>
           ))}

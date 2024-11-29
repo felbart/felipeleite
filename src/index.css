@@ -1,15 +1,19 @@
 @import url('https://api.fontshare.com/v2/css?f[]=general-sans@200,300,400,500,600,700&display=swap');
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 :root{
-  font-family: "General Sans", sans-serif;
-  font-weight: 500;
+  
+  /* font-family: vinila-compressed, sans-serif; */
+  font-family: 'General Sans', sans-serif;
+  font-weight: 400;
   overflow-x: hidden;
   /* color-scheme: dark; */
+  scroll-behavior: smooth;
 }
 
 
@@ -18,11 +22,11 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: #374151;
+  background: #111827;
   border-radius: 5px;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #876BE5;
+  background-color: #0342D3;
   border-radius: 14px;
 }

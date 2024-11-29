@@ -4,7 +4,7 @@ import { SOCIAL_MEDIA_LINKS } from '../constants';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-950 py-20 flex flex-col items-center justify-between min-h-96">
+    <footer className="bg-gray-950 py-24 flex flex-col items-center justify-center min-h-96 border-t-[1px] mt-32 border-gray-800">
         <div className="container flex flex-row py-4 items-start justify-between">
           <div className="flex flex-col justify-start items-start w-3/6">
             <img src={logo} alt="Felipe Leite" />

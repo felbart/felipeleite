@@ -23,14 +23,21 @@ import {
   import tsr01 from "../assets/images/tsr-01.png";
   import tsr02 from "../assets/images/tsr-02.png";
   import tsr03 from "../assets/images/tsr-03.png";
+  import tsrimgcover from "../assets/images/tsr-destaque-img.png";
+  
   import uft01 from "../assets/images/uft-01.png";
   import uft02 from "../assets/images/uft-02.png";
   import uft03 from "../assets/images/uft-03.png";
+  import uftimgcover from "../assets/images/uft-img-cover.png";
+
   import maisumdia01 from "../assets/images/mais-um-dia-01.png";
   import maisumdia02 from "../assets/images/mais-um-dia-02.png";
   import maisumdia03 from "../assets/images/mais-um-dia-03.png";
+  import maisumdiaimgcover from "../assets/images/maisumdia-img-cover.png";
+
   import fapto01 from "../assets/images/fapto-01.png";
   import fapto02 from "../assets/images/fapto-02.png";
+  import faptoimgcover from "../assets/images/fapto-img-cover.png";
 
 
   
@@ -77,8 +84,9 @@ import {
       id: '01',
       title: "TSR Oraculo",
       subtitle: "TSR Oráculo - Web3 Oracle Dashboard",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sint consectetur quasi modi accusamus explicabo repellat quas itaque, commodi hic enim facilis corporis voluptas maiores incidunt libero, maxime, quisquam harum",
+      description: "Dapp que conquistou o terceiro lugar como solução para o Hackathon do Tesouro Nacional Brasileiro sobe tokenização e Web3 de 2023.",
       image: [tsr01, tsr02, tsr03],
+      imgcover: tsrimgcover,
       date: "Jun 2024",
       role: "UI Designer & Web",
       technologies: "Bootstrap, SAAS, Figma, HTML, CSS",
@@ -86,6 +94,7 @@ import {
       company: "Vale das Araucárias (Hackathon team)",
       link: "tsr-oraculo",
       featured: true,
+      content:""
     },
     {
       id: '02',
@@ -93,6 +102,7 @@ import {
       subtitle: "Portal desenvolvido nos padrões do DS do Governo Federal",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sint consectetur quasi modi accusamus explicabo repellat quas itaque, commodi hic enim facilis corporis voluptas maiores incidunt libero, maxime, quisquam harum",
       image: [uft01, uft02, uft03],
+      imgcover: uftimgcover,
       date: "Jun 2024",
       role: "UX UI Designer & Frontend",
       technologies: "DSGov, Figma, React, Plone",
@@ -107,6 +117,7 @@ import {
       subtitle: "Aplicativo de saúde mental para jovens universitários",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sint consectetur quasi modi accusamus explicabo repellat quas itaque, commodi hic enim facilis corporis voluptas maiores incidunt libero, maxime, quisquam harum",
       image: [maisumdia01, maisumdia02, maisumdia03],
+      imgcover: maisumdiaimgcover,
       date: "Jun 2024",
       role: "UX UI Designer",
       technologies: "Figma, HTML, CSS, JavaScript",
@@ -121,11 +132,12 @@ import {
       subtitle: "Redesign Portal Institucional Fundação de Apoio Científico e Tecnológico do Tocantins - Fapto",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sint consectetur quasi modi accusamus explicabo repellat quas itaque, commodi hic enim facilis corporis voluptas maiores incidunt libero, maxime, quisquam harum",
       image: [fapto01, fapto02],
+      imgcover: faptoimgcover,
       date: "Jun 2024",
       role: "UX UI Designer",
       technologies: "Figma, HTML, CSS, JavaScript",
       deliverables: "Branding, UI Interface, Prototype",
-      company: "Universidade Federal do Tocantins UFT",
+      company: "Fundação de Apoio Científico e Tecnológico do Tocantins - Fapto",
       link: "portal-fapto",
       featured: false,
     },
